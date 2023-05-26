@@ -1,0 +1,6 @@
+<button class="btn btn-primary" (click)="toggleDisplayWord()">Display Details</button>
+<p *ngIf="displayWord; else hideWord">{{word}}</p>
+<ng-template #hideWord>
+<p><span *ngFor="let i of getSplit()">*</span></p>
+</ng-template>
+<p *ngFor="let log of logs; index as i" [ngStyle]="{backgroundColor: i>4?'blue':'transparent'}" [ngClass]="{myword: i>4}">{{log}}</p>
