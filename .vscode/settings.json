@@ -1,0 +1,11 @@
+{
+    "files.exclude": {
+        "my-first-app": true
+    },
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/*.code-search": true,
+        "my-first-app": true
+    }
+}
