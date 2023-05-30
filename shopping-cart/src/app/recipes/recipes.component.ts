@@ -6,12 +6,11 @@ import { Recipe } from './recipe.model';
   templateUrl: './recipes.component.html',
   styleUrls: ['./recipes.component.css']
 })
+
 export class RecipesComponent {
   selectedRecipe: Recipe;
 
   onRecipeSelected(recipe: Recipe) {
-    console.log('recipe selected' + recipe.name);
     this.selectedRecipe = recipe;
   }
-
 }
