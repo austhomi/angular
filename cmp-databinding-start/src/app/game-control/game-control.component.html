@@ -1,0 +1,6 @@
+<button class="btn btn-primary" [disabled]="isStarted" (click)="toggleStartGame()">Start</button>
+<button class="btn btn-danger" [disabled]="!isStarted"(click)="toggleStartGame()">Stop</button>
+<!-- <div *ngIf="counter != 0">
+    <div *ngIf="counter%2==0"><app-even [counter]="counter"></app-even></div>
+    <div *ngIf="counter%2!=0"><app-odd [counter]="counter"></app-odd></div>
+</div> -->
