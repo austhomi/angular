@@ -18,4 +18,9 @@ export class ShoppingListComponent {
     onIngredientAdded(ingredient: Ingredient) {
       this.ingredients.push(ingredient);
     }
+
+    onItemAdded(item: Ingredient) {
+      console.log(item)
+      this.ingredients.push(item);
+    }
 }
