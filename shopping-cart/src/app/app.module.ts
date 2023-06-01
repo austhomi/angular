@@ -12,6 +12,7 @@ import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-ed
 import { FormsModule } from '@angular/forms';
 import { BetterHighlighterDirective } from './directives/better-highlighter.directive';
 import { UnlessDirective } from './directives/unless.directive';
+import { DropdownDirective } from './directives/dropdown.directive';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { UnlessDirective } from './directives/unless.directive';
     ShoppingEditComponent,
     BetterHighlighterDirective,
     UnlessDirective,
+    DropdownDirective,
   ],
   imports: [
     BrowserModule,
