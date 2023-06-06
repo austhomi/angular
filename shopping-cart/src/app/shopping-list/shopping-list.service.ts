@@ -20,6 +20,11 @@ export class ShoppingListService {
         this.ingredients.push(ingredient);
         this.ingredientsChanged.emit(this.getIngredients())
     }
+    
+    addIngredients(ingredient: Ingredient[]) {
+        this.ingredients.push(...ingredient);
+        this.ingredientsChanged.emit(this.getIngredients())
+    }
 
     updateIngredient(id: number, recipe: Ingredient) {
         this.ingredients[id] = recipe

@@ -1,4 +1,4 @@
 *.DS_Store
 node_modules/
-cmp-databinding-start/node_modules/
-cmp-databinding-start/.angular
+*/node_modules/
+*/.angular
