@@ -15,6 +15,7 @@ import { UnlessDirective } from './directives/unless.directive';
 import { DropdownDirective } from './directives/dropdown.directive';
 import { ShoppingListService } from './shopping-list/shopping-list.service';
 import { AppRoutingModule } from './app-routing.module';
+import { RecipeStartComponent } from './recipes/recipe-start/recipe-start.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { AppRoutingModule } from './app-routing.module';
     BetterHighlighterDirective,
     UnlessDirective,
     DropdownDirective,
+    RecipeStartComponent,
   ],
   imports: [
     BrowserModule,

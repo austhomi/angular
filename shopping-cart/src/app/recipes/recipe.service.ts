@@ -27,6 +27,11 @@ export class RecipeService {
 
     constructor(private slService: ShoppingListService) { }
 
+
+    getRecipe(id:number) {
+        return this.recipes.slice()[id]
+    }
+
     getRecipes() {
         return this.recipes.slice()
     }
